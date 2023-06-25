@@ -794,6 +794,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  margin-top: 150px;
 }
 
 .get-started-body {
@@ -816,6 +818,7 @@ nav {
   width: 806px;
   height: 57px;
   flex-direction: column;
+  margin: 0;
 }
 
 /* footer */
