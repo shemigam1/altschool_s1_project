@@ -497,6 +497,10 @@ nav {
   height: 384px;
 }
 
+.big-card-item img {
+  color: #fff;
+}
+
 .big-card-body {
   display: flex;
   flex-direction: column;
