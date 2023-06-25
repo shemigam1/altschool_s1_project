@@ -102,6 +102,9 @@ nav {
 
 .h1-opener img {
   margin-top: -20px;
+  width: 173.63px;
+  height: 19.908px;
+  flex-shrink: 0;
   /* margin-left: -5px; */
 }
 .blue-text {
