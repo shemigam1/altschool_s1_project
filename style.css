@@ -141,7 +141,13 @@ nav {
   margin-right: 238px;
   margin-top: 80px;
   margin-bottom: 169px;
+  display: flex;
+
   /* margin-bottom: -76px; */
+}
+
+.opener-3 img {
+  margin-top: -15px;
 }
 
 .vector {
@@ -158,6 +164,7 @@ nav {
   border-radius: 24px;
   border: 0.5px solid #005ae2;
   backdrop-filter: blur(106px);
+  margin-left: -247px;
 }
 .vector-icons {
   display: flex;
@@ -205,12 +212,12 @@ nav {
 .ellipse {
   width: 956px;
   height: 49px;
-  flex-shrink: 0;
+  /* flex-shrink: 0;
   border-radius: 956px;
   border: 0.1px solid transparent;
   background-color: linear-gradient(180deg, #e2e9f0, #dce4eb, #e2e9f0);
   box-shadow: 0px 4px 4px 0px rgba(18, 36, 89, 0.35);
-  margin: 20px 228px 24px 256px;
+  margin: 20px 228px 24px 256px; */
 }
 
 /* About section */
@@ -264,12 +271,14 @@ nav {
   color: #141414;
   font-size: 32px;
   line-height: 40px;
+  margin: 0;
 }
 
 .stats-items p {
   color: #141414;
   font-size: 16px;
   line-height: 24px;
+  margin: 0;
 }
 .choose {
   /* height: 504px; */
@@ -515,6 +524,7 @@ nav {
 
 .big-card-item p {
   margin: 0;
+  color: #fff;
 }
 
 .big-card-item-head h4 {
@@ -575,6 +585,10 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: var(
+    --linear-gradient,
+    linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%)
+  );
 }
 .form {
   display: inline-flex;
@@ -587,6 +601,7 @@ nav {
   background: #fff;
   width: 392px;
   height: 271px;
+  margin: 83.5px 482px;
 }
 
 .form-top,
@@ -609,6 +624,18 @@ nav {
   border-radius: 12px;
   border: 1px solid #3284ff;
 }
+.input1::placeholder,
+.input3::placeholder {
+  color: #3284ff;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.input2::placeholder {
+  color: #3284ff;
+  font-size: 14px;
+  line-height: 12px;
+}
 
 .row2 {
   display: flex;
@@ -619,7 +646,7 @@ nav {
 
 .input2-container {
   display: flex;
-  width: 162px;
+  max-width: 162px;
   height: 12px;
   padding: 18px 20px;
   align-items: center;
@@ -635,6 +662,8 @@ nav {
   /* display: flex; */
   /* flex-direction: column; */
   /* flex: 1 0 0; */
+  border: none;
+  width: 132px;
 }
 
 .input3 {
