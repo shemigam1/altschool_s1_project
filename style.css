@@ -95,7 +95,8 @@ nav {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
 }
 .h1-opener h1 {
   margin: 0;
